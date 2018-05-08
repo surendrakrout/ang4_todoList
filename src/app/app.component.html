@@ -1,0 +1,13 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">Todo List</div>
+  
+  <div class="panel-body">
+    <div class="addlist"><label>Add Task: </label>
+      <input type="text" class="txttask" id="addtask" placeholder="Add Task" [(ngModel)]="newtask"> 
+      <button type="button" class="btn btn-primary" (click) ="addTask()">Add</button></div>
+    <ul class="list-group" >
+        <li class="list-group-item" *ngFor = "let item of taskList; let ind = index">{{item}} <button type="button" class="btn btn-danger" (click) ="removeTask(ind)">Remove</button></li>
+    </ul>
+  </div>
+</div>
+ 

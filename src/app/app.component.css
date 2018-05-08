@@ -1,0 +1,18 @@
+.panel{
+    width: 50% !important;
+    margin: 0 auto;
+}
+.addlist{
+    margin-bottom: 10px;
+}
+label{
+    margin-right: 10px;
+}
+.txttask{
+ width: 60%;
+ padding: 5px;
+}
+.btn-danger{
+    float: right;
+    padding: 3px !important;
+}
